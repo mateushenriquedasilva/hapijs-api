@@ -1,0 +1,25 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "api with hapi",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./",
+    "dev": "supervisor ./"
+  },
+  "keywords": [
+    "hapi",
+    "node"
+  ],
+  "author": "Matheus H",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/joi": "^17.1.1",
+    "dotenv": "^16.0.1",
+    "mariadb": "^3.0.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
